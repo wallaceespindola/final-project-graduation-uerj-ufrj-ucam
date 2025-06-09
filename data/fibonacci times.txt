@@ -1,0 +1,276 @@
+---------------------------------------------------
+Inicio fibo de [1] [Sat Mar 10 12:58:44 CET 2018]
+fibo(1):1
+Fim fibo de [1] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [1] em segundos: 0.03
+---------------------------------------------------
+Inicio fibo de [2] [Sat Mar 10 12:58:44 CET 2018]
+fibo(2):1
+Fim fibo de [2] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [2] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [3] [Sat Mar 10 12:58:44 CET 2018]
+fibo(3):2
+Fim fibo de [3] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [3] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [4] [Sat Mar 10 12:58:44 CET 2018]
+fibo(4):3
+Fim fibo de [4] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [4] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [5] [Sat Mar 10 12:58:44 CET 2018]
+fibo(5):5
+Fim fibo de [5] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [5] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [6] [Sat Mar 10 12:58:44 CET 2018]
+fibo(6):8
+Fim fibo de [6] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [6] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [7] [Sat Mar 10 12:58:44 CET 2018]
+fibo(7):13
+Fim fibo de [7] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [7] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [8] [Sat Mar 10 12:58:44 CET 2018]
+fibo(8):21
+Fim fibo de [8] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [8] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [9] [Sat Mar 10 12:58:44 CET 2018]
+fibo(9):34
+Fim fibo de [9] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [9] em segundos: 0.01
+---------------------------------------------------
+Inicio fibo de [10] [Sat Mar 10 12:58:44 CET 2018]
+fibo(10):55
+Fim fibo de [10] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [10] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [11] [Sat Mar 10 12:58:44 CET 2018]
+fibo(11):89
+Fim fibo de [11] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [11] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [12] [Sat Mar 10 12:58:44 CET 2018]
+fibo(12):144
+Fim fibo de [12] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [12] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [13] [Sat Mar 10 12:58:44 CET 2018]
+fibo(13):233
+Fim fibo de [13] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [13] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [14] [Sat Mar 10 12:58:44 CET 2018]
+fibo(14):377
+Fim fibo de [14] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [14] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [15] [Sat Mar 10 12:58:44 CET 2018]
+fibo(15):610
+Fim fibo de [15] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [15] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [16] [Sat Mar 10 12:58:44 CET 2018]
+fibo(16):987
+Fim fibo de [16] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [16] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [17] [Sat Mar 10 12:58:44 CET 2018]
+fibo(17):1597
+Fim fibo de [17] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [17] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [18] [Sat Mar 10 12:58:44 CET 2018]
+fibo(18):2584
+Fim fibo de [18] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [18] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [19] [Sat Mar 10 12:58:44 CET 2018]
+fibo(19):4181
+Fim fibo de [19] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [19] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [20] [Sat Mar 10 12:58:44 CET 2018]
+fibo(20):6765
+Fim fibo de [20] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [20] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [21] [Sat Mar 10 12:58:44 CET 2018]
+fibo(21):10946
+Fim fibo de [21] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [21] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [22] [Sat Mar 10 12:58:44 CET 2018]
+fibo(22):17711
+Fim fibo de [22] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [22] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [23] [Sat Mar 10 12:58:44 CET 2018]
+fibo(23):28657
+Fim fibo de [23] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [23] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [24] [Sat Mar 10 12:58:44 CET 2018]
+fibo(24):46368
+Fim fibo de [24] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [24] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [25] [Sat Mar 10 12:58:44 CET 2018]
+fibo(25):75025
+Fim fibo de [25] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [25] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [26] [Sat Mar 10 12:58:44 CET 2018]
+fibo(26):121393
+Fim fibo de [26] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [26] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [27] [Sat Mar 10 12:58:44 CET 2018]
+fibo(27):196418
+Fim fibo de [27] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [27] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [28] [Sat Mar 10 12:58:44 CET 2018]
+fibo(28):317811
+Fim fibo de [28] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [28] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [29] [Sat Mar 10 12:58:44 CET 2018]
+fibo(29):514229
+Fim fibo de [29] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [29] em segundos: 0.01
+---------------------------------------------------
+Inicio fibo de [30] [Sat Mar 10 12:58:44 CET 2018]
+fibo(30):832040
+Fim fibo de [30] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [30] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [31] [Sat Mar 10 12:58:44 CET 2018]
+fibo(31):1346269
+Fim fibo de [31] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [31] em segundos: 0.00
+---------------------------------------------------
+Inicio fibo de [32] [Sat Mar 10 12:58:44 CET 2018]
+fibo(32):2178309
+Fim fibo de [32] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [32] em segundos: 0.02
+---------------------------------------------------
+Inicio fibo de [33] [Sat Mar 10 12:58:44 CET 2018]
+fibo(33):3524578
+Fim fibo de [33] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [33] em segundos: 0.03
+---------------------------------------------------
+Inicio fibo de [34] [Sat Mar 10 12:58:44 CET 2018]
+fibo(34):5702887
+Fim fibo de [34] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [34] em segundos: 0.05
+---------------------------------------------------
+Inicio fibo de [35] [Sat Mar 10 12:58:44 CET 2018]
+fibo(35):9227465
+Fim fibo de [35] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [35] em segundos: 0.06
+---------------------------------------------------
+Inicio fibo de [36] [Sat Mar 10 12:58:44 CET 2018]
+fibo(36):14930352
+Fim fibo de [36] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [36] em segundos: 0.11
+---------------------------------------------------
+Inicio fibo de [37] [Sat Mar 10 12:58:44 CET 2018]
+fibo(37):24157817
+Fim fibo de [37] [Sat Mar 10 12:58:44 CET 2018]
+Duracao fibonacci de [37] em segundos: 0.17
+---------------------------------------------------
+Inicio fibo de [38] [Sat Mar 10 12:58:44 CET 2018]
+fibo(38):39088169
+Fim fibo de [38] [Sat Mar 10 12:58:45 CET 2018]
+Duracao fibonacci de [38] em segundos: 0.28
+---------------------------------------------------
+Inicio fibo de [39] [Sat Mar 10 12:58:45 CET 2018]
+fibo(39):63245986
+Fim fibo de [39] [Sat Mar 10 12:58:45 CET 2018]
+Duracao fibonacci de [39] em segundos: 0.45
+---------------------------------------------------
+Inicio fibo de [40] [Sat Mar 10 12:58:45 CET 2018]
+fibo(40):102334155
+Fim fibo de [40] [Sat Mar 10 12:58:46 CET 2018]
+Duracao fibonacci de [40] em segundos: 0.72
+---------------------------------------------------
+Inicio fibo de [41] [Sat Mar 10 12:58:46 CET 2018]
+fibo(41):165580141
+Fim fibo de [41] [Sat Mar 10 12:58:47 CET 2018]
+Duracao fibonacci de [41] em segundos: 1.16
+---------------------------------------------------
+Inicio fibo de [42] [Sat Mar 10 12:58:47 CET 2018]
+fibo(42):267914296
+Fim fibo de [42] [Sat Mar 10 12:58:49 CET 2018]
+Duracao fibonacci de [42] em segundos: 1.88
+---------------------------------------------------
+Inicio fibo de [43] [Sat Mar 10 12:58:49 CET 2018]
+fibo(43):433494437
+Fim fibo de [43] [Sat Mar 10 12:58:52 CET 2018]
+Duracao fibonacci de [43] em segundos: 3.05
+---------------------------------------------------
+Inicio fibo de [44] [Sat Mar 10 12:58:52 CET 2018]
+fibo(44):701408733
+Fim fibo de [44] [Sat Mar 10 12:58:57 CET 2018]
+Duracao fibonacci de [44] em segundos: 5.08
+---------------------------------------------------
+Inicio fibo de [45] [Sat Mar 10 12:58:57 CET 2018]
+fibo(45):1134903170
+Fim fibo de [45] [Sat Mar 10 12:59:05 CET 2018]
+Duracao fibonacci de [45] em segundos: 7.98
+---------------------------------------------------
+Inicio fibo de [46] [Sat Mar 10 12:59:05 CET 2018]
+fibo(46):1836311903
+Fim fibo de [46] [Sat Mar 10 12:59:18 CET 2018]
+Duracao fibonacci de [46] em segundos: 12.95
+---------------------------------------------------
+Inicio fibo de [47] [Sat Mar 10 12:59:18 CET 2018]
+fibo(47):2971215073
+Fim fibo de [47] [Sat Mar 10 12:59:39 CET 2018]
+Duracao fibonacci de [47] em segundos: 21.01
+---------------------------------------------------
+Inicio fibo de [48] [Sat Mar 10 12:59:39 CET 2018]
+fibo(48):4807526976
+Fim fibo de [48] [Sat Mar 10 13:00:13 CET 2018]
+Duracao fibonacci de [48] em segundos: 34.32
+---------------------------------------------------
+Inicio fibo de [49] [Sat Mar 10 13:00:13 CET 2018]
+fibo(49):7778742049
+Fim fibo de [49] [Sat Mar 10 13:01:08 CET 2018]
+Duracao fibonacci de [49] em segundos: 54.87
+---------------------------------------------------
+Inicio fibo de [50] [Sat Mar 10 13:01:08 CET 2018]
+fibo(50):12586269025
+Fim fibo de [50] [Sat Mar 10 13:02:37 CET 2018]
+Duracao fibonacci de [50] em segundos: 88.58
+---------------------------------------------------
+Inicio fibo de [51] [Sat Mar 10 13:02:37 CET 2018]
+fibo(51):20365011074
+Fim fibo de [51] [Sat Mar 10 13:05:00 CET 2018]
+Duracao fibonacci de [51] em segundos: 143.48
+---------------------------------------------------
+Inicio fibo de [52] [Sat Mar 10 13:05:00 CET 2018]
+fibo(52):32951280099
+Fim fibo de [52] [Sat Mar 10 13:08:52 CET 2018]
+Duracao fibonacci de [52] em segundos: 231.90
+---------------------------------------------------
+Inicio fibo de [53] [Sat Mar 10 13:08:52 CET 2018]
+fibo(53):53316291173
+Fim fibo de [53] [Sat Mar 10 13:15:08 CET 2018]
+Duracao fibonacci de [53] em segundos: 376.05
+---------------------------------------------------
+Inicio fibo de [54] [Sat Mar 10 13:15:08 CET 2018]
+fibo(54):86267571272
+Fim fibo de [54] [Sat Mar 10 13:25:15 CET 2018]
+Duracao fibonacci de [54] em segundos: 607.16
+---------------------------------------------------
+Inicio fibo de [55] [Sat Mar 10 13:25:15 CET 2018]
+fibo(55):139583862445
+Fim fibo de [55] [Sat Mar 10 13:41:46 CET 2018]
+Duracao fibonacci de [55] em segundos: 991.04
+---------------------------------------------------

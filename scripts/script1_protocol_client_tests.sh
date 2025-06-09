@@ -1,4 +1,5 @@
 !/bin/bash
+
 ################################################################################
 # Script para rodar testes de Vazão x Perda com RTTs fixos em redes gigabit,   #
 # utilizando os protocolos de transporte TCP, HSTCP e STCP                     #
@@ -167,6 +168,7 @@ testeTCP() {
   echo "***************************************************************"
   echo ""
 }
+
 testeHSTCP() {
 
   #####################################################################################

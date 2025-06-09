@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!--
+#####################################################################################
+#                                                                                   #
+# Abaixo está o código fonte para executar o teste com polling longo de 30 segundos #
+# realizando uma chamada a um servidor com retardo de processamento de 2 segundos.  #
+#                                                                                   #
+#         *** Projeto de Graduação - Engenharia de Software - Poli/UFRJ ***         #
+#                                                                                   #
+# Autor: Wallace de Souza Espindola                                                 #
+#                                                                                   #
+# Criado em: Março/2018                                               	            #
+#                                                                                   # 
+#####################################################################################
+-->
+
+<html>
+<body>
+
+<h2>JavaScript Pooling</h2>
+
+<p>Clique para iniciar o polling de 30 segundos:</p>
+
+<button onclick="myPollFunction()">Iniciar</button>
+
+<script>
+    function myPollFunction() {
+        setInterval(function () {
+
+            document.getElementById('parte1').innerHTML = Date();
+
+            document.getElementById('parte2').innerHTML = Math.random();
+
+            document.getElementById("parte3").innerHTML = "aguardando...";
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("parte3").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "http://httpbin.org/delay/7", true);
+            xhttp.send();
+
+            //Setup the next poll recursively
+            //myPollFunction();
+
+        }, 30000);
+    }
+</script>
+
+<p id="parte1"></p>
+
+<p id="parte2"></p>
+
+<p id="parte3"></p>
+
+</body>
+</html> 

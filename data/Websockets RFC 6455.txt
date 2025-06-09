@@ -1,0 +1,96 @@
+RFC 6455 
+
+December 2011
+
+The WebSocket Protocol
+
+Fette & Melnikov
+
+Abstract
+
+The WebSocket Protocol enables two-way communication between a client running untrusted code in a controlled environment to a remote host that has opted-in to communications from that code. The security model used for this is the origin-based security model commonly used by web browsers. The protocol consists of an opening handshake followed by basic message framing, layered over TCP. The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g., using XMLHttpRequest or <iframe>s and long polling).
+
+1. Introduction
+
+1.1. Background
+
+Historically, creating web applications that need bidirectional communication between a client and a server (e.g., instant messaging and gaming applications) has required an abuse of HTTP to poll the server for updates while sending upstream notifications as distinct HTTP calls [RFC6202].
+
+This results in a variety of problems:
+
+o The server is forced to use a number of different underlying TCP connections for each client: one for sending information to the client and a new one for each incoming message.
+
+o The wire protocol has a high overhead, with each client-to-server message having an HTTP header.
+
+o The client-side script is forced to maintain a mapping from the outgoing connections to the incoming connection to track replies.
+
+A simpler solution would be to use a single TCP connection for traffic in both directions. This is what the WebSocket Protocol provides. Combined with the WebSocket API [WSAPI], it provides an alternative to HTTP polling for two-way communication from a web page to a remote server.
+
+The same technique can be used for a variety of web applications: games, stock tickers, multiuser applications with simultaneous editing, user interfaces exposing server-side services in real time, etc.
+
+The WebSocket Protocol is designed to supersede existing bidirectional communication technologies that use HTTP as a transport layer to benefit from existing infrastructure (proxies, filtering, authentication). Such technologies were implemented as trade-offs between efficiency and reliability because HTTP was not initially meant to be used for bidirectional communication (see [RFC6202] for further discussion). The WebSocket Protocol attempts to address the goals of existing bidirectional HTTP technologies in the context of the existing HTTP infrastructure; as such, it is designed to work over HTTP ports 80 and 443 as well as to support HTTP proxies and intermediaries, even if this implies some complexity specific to the current environment. However, the design does not limit WebSocket to HTTP, and future implementations could use a simpler handshake over a dedicated port without reinventing the entire protocol. This last point is important because the traffic patterns of interactive messaging do not closely match standard HTTP traffic and can induce unusual loads on some components.
+
+
+
+O protocolo WebSocket
+
+Abstrato
+
+O Protocolo WebSocket permite a comunicação bidirecional entre um cliente executando código não confiável em um ambiente controlado para um host remoto que tenha optado por comunicações desse código. O modelo de segurança usado para isso é o modelo de segurança baseado em origem comumente usado pelos navegadores da web. O protocolo consiste em um handshake de abertura seguido por um enquadramento de mensagem básico, em camadas sobre TCP. O objetivo dessa tecnologia é fornecer um mecanismo para aplicativos baseados em navegador que precisam de comunicação bidirecional com servidores que não dependem da abertura de várias conexões HTTP (por exemplo, usando XMLHttpRequest ou <iframe> s e long polling).
+
+Fette e Melnikov
+ 
+RFC 6455 O protocolo WebSocket dezembro de 2011
+
+
+1. Introdução
+
+1.1. fundo
+
+   Historicamente, criando aplicativos da Web que precisam de bidirecional
+   comunicação entre um cliente e um servidor (por exemplo, mensagens instantâneas
+   aplicativos de jogos) exigiu um abuso de HTTP para pesquisar o
+   servidor para atualizações ao enviar notificações upstream como distintas
+   Chamadas HTTP [RFC6202].
+
+   Isso resulta em vários problemas:
+
+   o O servidor é forçado a usar um número de diferentes TCP subjacentes
+      conexões para cada cliente: um para enviar informações para o
+      cliente e um novo para cada mensagem recebida.
+
+   o O protocolo wire tem uma alta sobrecarga, com cada cliente-servidor
+      mensagem com um cabeçalho HTTP.
+
+   o O script do lado do cliente é forçado a manter um mapeamento do
+      conexões de saída para a conexão de entrada para rastrear respostas.
+
+   Uma solução mais simples seria usar uma única conexão TCP para
+   tráfego em ambas as direções. Isto é o que o protocolo WebSocket
+   fornece. Combinado com a API WebSocket [WSAPI], ele fornece uma
+   alternativa ao polling HTTP para comunicação bidirecional a partir de uma página web
+   para um servidor remoto.
+
+   A mesma técnica pode ser usada para uma variedade de aplicativos da Web:
+   jogos, tickers de ações, aplicativos multiusuário com
+   edição, interfaces de usuário expondo serviços do lado do servidor em tempo real,
+   etc.
+
+   O protocolo WebSocket é projetado para substituir
+   tecnologias de comunicação bidirecionais que usam HTTP como transporte
+   camada para se beneficiar da infra-estrutura existente (proxies, filtragem,
+   autenticação). Tais tecnologias foram implementadas como trade-offs
+   entre eficiência e confiabilidade, porque o HTTP não era inicialmente
+   destinado a ser usado para comunicação bidirecional (ver [RFC6202] para
+   discussão adicional). O WebSocket Protocol tenta resolver o problema
+   objetivos das tecnologias HTTP bidirecionais existentes no contexto de
+   a infra-estrutura HTTP existente; como tal, é projetado para funcionar
+   através de portas HTTP 80 e 443, bem como para apoiar proxies HTTP e
+   intermediários, mesmo que isso implique alguma complexidade específica
+   ambiente atual. No entanto, o design não limita o WebSocket a
+   HTTP e implementações futuras poderiam usar um aperto de mão mais simples
+   porta dedicada sem reinventar todo o protocolo. Esse último
+   ponto é importante porque os padrões de tráfego de interativo
+   mensagens não correspondem muito ao tráfego HTTP padrão e podem induzir
+   cargas incomuns em alguns componentes.
+
